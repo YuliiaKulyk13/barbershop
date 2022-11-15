@@ -1,0 +1,24 @@
+.header{
+    position: absolute;
+    // padding-top: 40px;
+    // padding-bottom: 40px;
+    width: 100%;
+}
+
+.header-icon{
+   fill: white;
+   display: flex;
+
+}
+
+.header-box{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:0 auto;
+}

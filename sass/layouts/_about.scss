@@ -1,0 +1,79 @@
+.about{
+    padding-top: 84px;
+    padding-bottom: 84px;
+
+    @media screen and (min-width:768px){
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    @media screen and (min-width: 1200px){
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
+
+.about-top-text{
+font-family: 'Open sans';
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36px;
+text-transform: uppercase;
+color: #303030;
+
+margin-bottom: 20px;
+
+}
+
+.about-title {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 1.17;
+letter-spacing: 0.05em;
+
+color: #303030;
+margin-bottom: 20px;
+
+@media screen and (min-width: 1200px){
+font-size: 42px;
+}
+}
+
+.about-bottom-text {
+font-family: 'Open Sans';
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.02em;
+
+color: #555555;
+    margin-bottom: 20px;
+}
+
+.about-description {
+font-family:'open sans';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.86;
+letter-spacing: 0.02em;
+color: #555555;
+margin-bottom: 40px;
+}
+
+.about-button {
+padding: 10px 20px;
+font-family: 'open sans';
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+background-color:  transperant;
+color: #303030;
+border: 1px solid #FF6C00;
+border-radius: 25px;
+
+}

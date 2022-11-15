@@ -1,2 +1,17 @@
 @import './base/reset';
 @import './components/container';
+@import './utils/vars';
+
+@import './layouts/mob.menu';
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/about';
+@import './layouts/prices';
+@import './layouts/reviews';
+
+@import './layouts/barbers';
+@import './layouts/images';
+
+@import './layouts/online-booking';
+@import './layouts/contacts';
+@import './layouts/footer';
