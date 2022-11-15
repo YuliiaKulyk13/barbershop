@@ -1,0 +1,82 @@
+.barbers{
+    padding-top: 84px;
+    padding-bottom: 84px;
+    background:#F7F7F7;
+}
+
+.barbers-text { 
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+text-transform: uppercase;
+color: #303030;
+margin-bottom: 20px;
+}
+
+.barbers-title {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+color: #303030;
+margin-bottom: 44px;
+}
+
+.barbers-box:not(:last-child){
+margin-bottom: 44px;
+}
+
+.barbers-image{
+width: 100%;
+height: 100%;
+}
+
+.barbers-name {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.38;
+text-align: center;
+letter-spacing: 0.02em;
+color: #303030;
+margin-top: 30px;
+margin-bottom: 8px;
+}
+
+.barbers-speciality {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.35;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FF6C00; 
+margin-bottom: 30px;
+}
+
+.barbers-soc-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 50%;
+}
+
+.barbers-soc-item {
+}
+.barbers-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FFFFFF;
+}
+
+.barbers-soc-link .barbers-icon :hover,
+.barbers-soc-link .barbers-icon :focus{
+    fill:#FF6C00;
+    cursor: pointer;
+}

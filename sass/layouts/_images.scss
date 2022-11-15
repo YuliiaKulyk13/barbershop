@@ -1,0 +1,22 @@
+.images{
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.images-title{
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+text-transform: uppercase;
+color: #303030;
+margin-bottom: 71px;
+}
+.images-list {
+
+}
+.images-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+.images-image {
+width: 100%;
+}

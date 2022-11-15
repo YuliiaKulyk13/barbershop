@@ -155,7 +155,6 @@ body {
 }
 
 .about-top-text {
-  font-family: "Open sans";
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36px;
@@ -208,8 +207,249 @@ body {
   line-height: 16px;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  background-color: transperant;
   color: #303030;
   border: 1px solid #FF6C00;
   border-radius: 25px;
+}
+
+.prices {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  background-image: url(/images/second-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prices-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
+}
+
+.prices-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  max-width: 418px;
+  font-size: 40px;
+  line-height: 1.175;
+  letter-spacing: 0.05em;
+  margin-bottom: 44px;
+  color: #FFFFFF;
+}
+
+.prices-list {
+  margin-bottom: 44px;
+}
+
+.prices-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.prices-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.prices-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.prices-number {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.prices-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: #E5E5E5;
+  color: #303030;
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+}
+
+.reviews {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+.reviews-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #303030;
+  margin-bottom: 20px;
+}
+
+.reviews-title {
+  font-family: "Raleway";
+  max-width: 418px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #303030;
+  margin-bottom: 20px;
+}
+
+.reviews-bottom-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+  margin-bottom: 44px;
+}
+
+.reviews-list {
+  display: block;
+  gap: 30px;
+}
+
+.reviews-numbers {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.reviews-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #303030;
+}
+
+.barbers {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background: #F7F7F7;
+}
+
+.barbers-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #303030;
+  margin-bottom: 20px;
+}
+
+.barbers-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #303030;
+  margin-bottom: 44px;
+}
+
+.barbers-box:not(:last-child) {
+  margin-bottom: 44px;
+}
+
+.barbers-image {
+  width: 100%;
+  height: 100%;
+}
+
+.barbers-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.barbers-speciality {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FF6C00;
+  margin-bottom: 30px;
+}
+
+.barbers-soc-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 50%;
+}
+
+.barbers-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.barbers-soc-link .barbers-icon :hover,
+.barbers-soc-link .barbers-icon :focus {
+  fill: #FF6C00;
+  cursor: pointer;
+}
+
+.images {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+.images-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #303030;
+  margin-bottom: 71px;
+}
+
+.images-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.images-image {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
